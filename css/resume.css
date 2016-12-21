@@ -13,9 +13,11 @@ body{
 }
 
 .container_re{
-	width: 1200px;
-	height: 680px;
-	margin: 30px auto;
+	min-width: 1200px;
+    width: 80%;
+    height: 90%;
+    min-height: 680px;
+    margin: 30px auto;
     text-align: center;
     opacity: 0.85;
 }
@@ -39,6 +41,7 @@ body{
     border: 1px solid rgba(34,43,95,.79);
     border-radius: 40px;
     text-align: center;
+    line-height: 20px;
     font-size: 18px!important;
     width: 236px;
     height: 33px;
@@ -54,8 +57,14 @@ body{
     -webkit-border-radius: 100px;
     position: absolute;
     cursor: pointer;
-    background-size: 35px;
+    background-size: 36px;
 	background-image: url(../img/search.png);
+}
+.input_span:hover{
+	background-size: 35px;
+}
+.input_span:active{
+	background-size: 33.5px;
 }
 .input_tex{
 	margin-top: 16px;
